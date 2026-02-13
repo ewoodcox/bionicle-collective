@@ -153,9 +153,12 @@ img {
 .hero-bg {
   position: absolute;
   inset: 0;
+  z-index: 0;
   background:
     radial-gradient(ellipse 80% 50% at 50% 20%, var(--accent-glow) 0%, transparent 50%),
-    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-card) 100%);
+    linear-gradient(180deg, var(--bg-deep) 0%, transparent 40%, var(--bg-card) 100%),
+    url("../images/hero-matoran.png") center center / cover no-repeat;
+  background-color: var(--bg-deep);
   pointer-events: none;
 }
 
