@@ -5,7 +5,7 @@
             "name": "Launch Chrome (site + hero image)",
             "request": "launch",
             "type": "chrome",
-            "url": "http://127.0.0.1:8080",
+            "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}/TBC Website Idea/bionicle-collective",
             "preLaunchTask": "Start server"
         },
@@ -13,7 +13,7 @@
             "name": "Launch Chrome (server already running)",
             "request": "launch",
             "type": "chrome",
-            "url": "http://127.0.0.1:8080",
+            "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}/TBC Website Idea/bionicle-collective"
         },
         {
